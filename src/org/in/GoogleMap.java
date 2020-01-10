@@ -9,10 +9,13 @@ public class GoogleMap {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver","E:\\Ellipse - Gtech\\program\\SeleniumClass2\\drive\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
-		driver.get("https://www.google.com/");
+		driver.get("http://www.srmtransports.in/");
 		// find the location of user name
-		WebElement txtUserName=driver.findElement(By.name("q"));
-		txtUserName.sendKeys("Greens Technology OMR");
+		//WebElement txtUserName=driver.findElement(By.name("q"));
+		//txtUserName.sendKeys("Greens Technology OMR");
+		
+		
+		
 	  
 	}
 
